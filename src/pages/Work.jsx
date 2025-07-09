@@ -125,13 +125,38 @@ export default function Work() {
             May-August 2022, May-August 2023
           </div>
         </div>
-        <div>
-        Solace is the leading innovator in event-driven architecture.
-        • Analyzed test failures and created new scripts in Solace’s automated test repository using Tcl. Source
-        control managed through SVN.
-        • Created and debugged automated tests for the web user interface of Solace products using a
-        Playwright framework and TypeScript. Source control managed through Git.
-        • Maintained and augmented tests with new product features or updates.
+        <div className={styles.work_info}>
+          <div>
+            <div className={styles.work_subtitle}>
+              What I learned...
+            </div>
+            <div className={styles.work_lists}>
+              <div>
+                Tcl, svn
+              </div>
+              <div>
+                Playwright, Typescript
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className={styles.work_subtitle}>
+              What I accomplished...
+            </div>
+            <div className={styles.work_lists}>
+              <div>
+                Analyzed test failures and created new scripts in Solace’s automated test repository using Tcl. Source
+                control managed through SVN.
+              </div>
+              <div>
+                Created and debugged automated tests for the web user interface of Solace products using a
+                Playwright framework and TypeScript. Source control managed through Git.
+              </div>
+              <div>
+                Maintained and augmented tests with new product features or updates.
+              </div>
+            </div>
+          </div>
         </div>
         <div className={styles.link_container}>
           <a target="_blank" rel="noreferrer" href="https://solace.com/">
@@ -154,12 +179,37 @@ export default function Work() {
             May-August 2020, May-August 2021
           </div>
         </div>
-        <div>
-        Ruckify was a peer-to-peer online rental marketplace
-        • Created, updated and executed automated test cases using JavaScript and Cypress framework
-        • Participated in code reviews and daily team standups
-        • Modified and updated development code, correcting capitalization and spelling errors on the Ruckify
-        website
+        <div className={styles.work_info}>
+          <div>
+            <div className={styles.work_subtitle}>
+              What I learned...
+            </div>
+            <div className={styles.work_lists}>
+              <div>
+                First experience with quality assurance, learned how to automat test w cypress
+              </div>
+              <div>
+                First experience with git, jira, all that shit
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className={styles.work_subtitle}>
+              What I accomplished...
+            </div>
+            <div className={styles.work_lists}>
+              <div>
+                Created, updated and executed automated test cases using JavaScript and Cypress framework
+              </div>
+              <div>
+                Participated in code reviews and daily team standups
+              </div>
+              <div>
+                Modified and updated development code, correcting capitalization and spelling errors on the Ruckify
+                website
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

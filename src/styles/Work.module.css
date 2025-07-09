@@ -63,9 +63,11 @@
 }
 
 .wave_container {
-  width:20%;
+  width:30%;
   height:fit-content;
   animation: 1s fadeIn;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .work_container {
