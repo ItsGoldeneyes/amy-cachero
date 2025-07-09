@@ -104,15 +104,15 @@
   flex-direction: column;
   justify-content: center;
   margin-top:13rem;
-  margin-bottom: 13rem;
+  margin-bottom: 15rem;
   gap:2rem;
 }
 
 .home_subtitle {
-  font-size:2rem;
+  font-size:1.5rem;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
-  color:#6795d1;
+  color:#212858;
   text-shadow: 1px 1px 3px #CCCCCC;
 }
 
@@ -120,7 +120,7 @@
   font-size:1.5rem;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
-  color:#6795d1;
+  color:#212858;
 }
 
 .home_welcome_section {

@@ -3,6 +3,8 @@ import styles from "../styles/Work.module.css";
 
 import wave from "../assets/wave.png";
 
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+
 export default function Work() {
   return (
     <div className={styles_global.page_container}>
@@ -15,35 +17,39 @@ export default function Work() {
             May-August 2024
           </div>
         </div>
-        <div>
+        <div className={styles.work_info}>
           <div>
-            <div>
-              What I learned
+            <div className={styles.work_subtitle}>
+              What I learned...
             </div>
-            <div>
-              Powerapps 
-              Shit about AI???
+            <div className={styles.work_lists}>
+              <div>
+                Powerapps
+              </div>
+              <div>
+                PowerAutomate
+              </div>
             </div>
           </div>
           <div>
-            <div>
-              What I accomplished
+            <div className={styles.work_subtitle}>
+              What I accomplished...
             </div>
-            <div>
-              Went thru process of making app 
-              
+            <div className={styles.work_lists}>
+              <div>
+                Collaborated with a small team to create a shoutouts app called Bravo. For department to use instead of wall. 
+                Worked with Microsoft Power Apps and Power Automate for development and Jira for task management.
+              </div>
+              <div>
+                Led bi-weekly Tech Talk meetings when supervisors were unavailable. Discussed current progress, blockers, and future tasks.
+              </div>
             </div>
           </div>
-          
-          • Collaborated with a small team to develop a shoutouts app for the department. Worked with Microsoft
-          Power Apps and Power Automate for development and Jira for task management.
-          • Led bi-weekly Tech Talk meetings when supervisors were unavailable. Discussed current progress,
-          blockers, and future tasks.
-
         </div>
         <div className={styles.link_container}>
           <a target="_blank" rel="noreferrer" href="https://ised-isde.canada.ca/site/ised/en">
-            ISED Website link
+            More about ISED 
+            <OpenInNewIcon fontSize="1rem"></OpenInNewIcon>
           </a>
         </div>
       </div>
@@ -61,16 +67,47 @@ export default function Work() {
             September 2023 - April 2024
           </div>
         </div>
-        <div>
-          Aisha Comfortable Coliving is a digital platform that strives to build an inclusive community.
-          • Consulted Figma designs to add and edit frontend styling and functionality to company website using
-          React, JavaScript, and MUI: https://www.comfortablecoliving.ca/
-          • Implemented backend functionality using React Redux and a Django framework
-
+        <div className={styles.work_info}>
+          <div>
+            <div className={styles.work_subtitle}>
+              What I learned...
+            </div>
+            <div className={styles.work_lists}>
+              <div>
+                Gained more experience with react
+              </div>
+              <div>
+                MUI materials. Icons, nav stuff, typography
+              </div>
+              <div>
+                Figma
+              </div>
+              <div>
+                React redux
+              </div>
+              <div>
+                Django
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className={styles.work_subtitle}>
+              What I accomplished...
+            </div>
+            <div className={styles.work_lists}>
+              <div>
+                Revamped many websites. Used marketing team's figma designs, 
+              </div>
+              <div>
+                Conducted interviews and trained new hires
+              </div>
+            </div>
+          </div>
         </div>
         <div className={styles.link_container}>
           <a target="_blank" rel="noreferrer" href="https://www.aishaliving.ca/">
-            Aisha Living Website link
+            More about Aisha Living
+            <OpenInNewIcon fontSize="1rem"></OpenInNewIcon>
           </a>
         </div>
       </div>
@@ -98,7 +135,8 @@ export default function Work() {
         </div>
         <div className={styles.link_container}>
           <a target="_blank" rel="noreferrer" href="https://solace.com/">
-            Solace Website link
+            More about Solace
+            <OpenInNewIcon fontSize="1rem"></OpenInNewIcon>
           </a>
         </div>
       </div>

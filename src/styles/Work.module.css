@@ -39,8 +39,16 @@
 }
 
 .link_container {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   position:relative;
+  width:100%;
+  font-size: 1rem;
+  font-family: "Red Hat Display", sans-serif;
+  line-height: 1.5rem;
+}
+
+.link_container > a {
+  text-decoration: none;
 }
 
 .title_container {
@@ -55,7 +63,7 @@
 }
 
 .wave_container {
-  width:30%;
+  width:20%;
   height:fit-content;
   animation: 1s fadeIn;
 }
@@ -64,12 +72,42 @@
   width: 50%;
   display:flex;
   flex-direction:column;
-  align-items: left;
+  align-items: center;
   margin-top:2rem;
   margin-bottom:2rem;
   padding:1rem;
   border-radius: 10px;
   animation: 1s fadeIn;
+}
+
+.work_info {
+  width:95%;
+}
+
+.work_lists {
+  font-size: 1rem;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.work_lists > div {
+	margin: 0;
+	list-style: none;
+  padding-left:2rem;
+	background-image: url("../assets/list_image.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.work_subtitle {
+  font-family: "Red Hat Display", sans-serif;
+  color:#212858;
+  font-weight:600;
+  font-size:1.2rem;
+  margin-bottom: 1rem;
 }
 
 .work_title {
