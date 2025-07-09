@@ -1,31 +1,7 @@
 import { NavLink } from 'react-router-dom';
-//import { useState, useEffect } from 'react';
 import "../styles/App.css";
 import styles from "../styles/Header.module.css";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-
-//function getWindowDimensions() {
-//    const { innerWidth: width, innerHeight: height } = window;
-//    return {
-//      width,
-//      height
-//    };
-//  }
-  
-//function useWindowDimensions() {
-//    const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
-  
-//    useEffect(() => {
-//      function handleResize() {
-//        setWindowDimensions(getWindowDimensions());
-//      }
-  
-//      window.addEventListener('resize', handleResize);
-//      return () => window.removeEventListener('resize', handleResize);
-//    }, []);
-  
- //   return windowDimensions;
-//  }
 
 export default function Header() {
     return (

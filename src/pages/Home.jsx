@@ -3,12 +3,34 @@ import styles from "../styles/Home.module.css";
 
 import shell from "../assets/shell.png";
 
+import {motion as m } from "framer-motion";
+import { NavLink } from "react-router-dom";
+
 export default function Home() {
   return (
     <div className={styles_global.page_container}>
-      <div className={styles.home_margin_left}></div>
-      <div className={styles.home_margin_right}></div>
-      <div className={styles.home_container}>
+      <m.div
+        className={styles.home_margin_left}
+        initial={{ x: "-100% "}}
+        animate={{ x: "0%" }}
+        transition={{ duration: 0.5 }}
+        exit={{ x: "-100%" }}
+      >
+      </m.div>
+      <m.div
+        className={styles.home_margin_right}
+        initial={{ x: "100% "}}
+        animate={{ x: "0%" }}
+        transition={{ duration: 0.5 }}
+        exit={{ x: "100%" }}
+      ></m.div>
+      <m.div 
+        className={styles.home_container}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5 }}
+        exit={{ opacity: 0 }}
+      >
         <div className={styles.home_title_section}>
           <div className={styles.home_title}>
             Amy Cachero
@@ -35,7 +57,7 @@ export default function Home() {
           <div className={styles.home_description}>
             I am a recent graduate of the Computer Science Co-op program at Toronto Metropolitan University. 
             The Co-op program allowed me to contribute to a variety of companies and work in both the private 
-            and public sector. A more in-depth look at my work experiences can be seen on <span><a className={styles.home_links} href="/work">this page</a></span> 
+            and public sector. A more in-depth look at my work experiences can be seen on <span><NavLink to="/work" className={styles.home_links}>this page</NavLink></span>.
           </div>
 
           <div className={styles.home_description}>
@@ -53,10 +75,10 @@ export default function Home() {
 
           <div className={styles.home_description}>
             Some of my projects outside of programming include art and video editing. Take a look at my
-            projects in more detail <span><a className={styles.home_links} href="/projects">here</a></span>. 
+            projects in more detail <span><NavLink to="/projects" className={styles.home_links}>here</NavLink></span>. 
           </div>
         </div>
-      </div>
+      </m.div>
     </div>
   );
 }
