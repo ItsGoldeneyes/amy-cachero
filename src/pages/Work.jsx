@@ -13,7 +13,7 @@ export default function Work() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  
+
   return (
     <m.div
       initial={{ opacity: 0 }}
@@ -38,10 +38,12 @@ export default function Work() {
             </div>
             <div className={styles.work_lists}>
               <div>
-                Powerapps
+                Used a pre-existing template and made edits and changes based on the project requirements. I learned 
+                how it werks with research and with the help of team members when I couldn't find it
               </div>
               <div>
-                PowerAutomate
+                Along with PowerApps, I learned to use microsoft's PowerAutomate tool. Connect soefb with the app, 
+                displaying lists of data and sorting it 
               </div>
             </div>
           </div>

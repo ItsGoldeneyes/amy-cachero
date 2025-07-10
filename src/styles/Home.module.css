@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
 .home_about_me {
   margin-top:13rem;
@@ -64,7 +64,8 @@
 }
 
 .home_title {
-  font-family: "Raleway", sans-serif;
+  font-family: "Bona Nova", serif; 
+  /*nfont-family:  "Raleway", sans-serif; */
   font-size:5em;
   font-weight: 600;
   color:#A90B0B;

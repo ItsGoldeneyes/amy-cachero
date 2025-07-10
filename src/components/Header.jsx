@@ -11,19 +11,19 @@ export default function Header() {
                 to="/" 
                 className={({ isActive }) => (isActive ? styles.active : styles.inactive)}
             >
-                HOME
+                Home
             </NavLink>
             <NavLink 
                 to="/work" 
                 className={({ isActive }) => (isActive ? styles.active : styles.inactive)}
             >
-                WORK
+                Work
             </NavLink>
             <NavLink 
                 to="/projects" 
                 className={({ isActive }) => (isActive ? styles.active_project : styles.inactive)}
             >
-                PROJECTS
+                Projects
             </NavLink>
         </div>
         <div className={styles.icons_container}>

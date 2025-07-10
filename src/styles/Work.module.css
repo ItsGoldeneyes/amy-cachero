@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Red+Hat+Display&display=swap');
 
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
 .link_container > a {
   position:absolute;
   font-weight:600;
@@ -21,6 +16,7 @@
 .link_container > a:hover {
   cursor: pointer;
   font-size: 1.05rem;
+  font-weight: 700;
 }
 
 .dates {
@@ -65,7 +61,6 @@
 .wave_container {
   width:30%;
   height:fit-content;
-  animation: 1s fadeIn;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -79,7 +74,6 @@
   margin-bottom:2rem;
   padding:1rem;
   border-radius: 10px;
-  animation: 1s fadeIn;
 }
 
 .work_info {
