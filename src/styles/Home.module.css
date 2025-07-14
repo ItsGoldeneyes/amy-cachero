@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
 .home_about_me {
-  margin-top:13rem;
-  margin-bottom: 8rem;
+  margin-top:30vh;
+  margin-bottom: 15vh;
   width:80%;
   display:flex;
   flex-direction:column;
@@ -21,7 +21,7 @@
 
 .home_description {
   margin-top:0.5rem;
-  font-size: 1rem;
+  font-size: 1.1vw;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
   line-height: 1.5rem;
@@ -66,7 +66,7 @@
 .home_title {
   font-family: "Bona Nova", serif; 
   /*nfont-family:  "Raleway", sans-serif; */
-  font-size:5em;
+  font-size:5vw;
   font-weight: 600;
   color:#A90B0B;
   text-shadow: 2px 2px 5px #CCCCCC;
@@ -77,13 +77,13 @@
   display:flex;
   flex-direction: column;
   justify-content: center;
-  margin-top:13rem;
-  margin-bottom: 18rem;
+  margin-top:28vh;
+  margin-bottom: 38vh;
   gap:2rem;
 }
 
 .home_subtitle {
-  font-size:1.5rem;
+  font-size:1.6vw;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
   color:#212858;
@@ -91,7 +91,7 @@
 }
 
 .home_welcome {
-  font-size:1.5rem;
+  font-size:1.6vw;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
   color:#212858;
@@ -103,7 +103,30 @@
 
 @media (max-width: 1200px) {
  
+  .home_about_me {
+    margin-top:8rem;
+    margin-bottom: 8rem;
+  }
+
+  .home_description {
+    font-size:1rem;
+  }
+
+  .home_icon_container {
+    width:25%;
+  }
+
+  .home_subtitle {
+    font-size: 1.5rem;
+  }
   .home_title {
-    font-size: 5em;
-}
+    font-size: 4rem;
+  }
+  .home_title_section {
+    margin-top:8rem;
+    margin-bottom: 8rem;  
+  }
+  .home_welcome {
+    font-size:1.5rem;
+  }
 }

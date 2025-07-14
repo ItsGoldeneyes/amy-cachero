@@ -29,7 +29,7 @@
 
 .nav_container > a {
     border:none;
-    width:12rem;
+    width: 13vw;
     background-size: contain;
     background-repeat:no-repeat;
     background-position:center;
@@ -37,7 +37,7 @@
     padding:30px 0 10px 0;
     font-family: "Red Hat Display", sans-serif;
     font-weight:600;
-    font-size:1.2rem;
+    font-size:1.3vw;
     text-align:center;
     text-decoration: none;
     transition: 0.1s;
@@ -73,6 +73,10 @@
 
 @media (max-width: 800px) {
  
+    .nav_container > a {
+        width:9rem;
+        font-size:1.2rem;
+    }
       .nav_container > a.inactive:hover {
         color:#A90B0B;
     }
