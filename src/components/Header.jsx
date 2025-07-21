@@ -26,9 +26,9 @@ export default function Header() {
                 Projects
             </NavLink>
         </div>
-        <div className={styles.icons_container}>
+        <a className={styles.icons_container} target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/amy-cachero/">
             <LinkedInIcon fontSize="large" sx={{color:"#6795d1"}}></LinkedInIcon>
-        </div>
+        </a>
     </div>
   );
 }
