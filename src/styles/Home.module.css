@@ -24,7 +24,7 @@
   font-size: 1.1vw;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
-  line-height: 1.5rem;
+  line-height: 1.6vw;
 }
 
 .home_icon {
@@ -110,6 +110,7 @@
 
   .home_description {
     font-size:1rem;
+    line-height: 1.5rem;
   }
 
   .home_icon_container {

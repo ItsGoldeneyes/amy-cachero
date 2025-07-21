@@ -38,12 +38,8 @@ export default function Work() {
             </div>
             <div className={styles.work_lists}>
               <div>
-                Used a pre-existing template and made edits and changes based on the project requirements. I learned 
-                how it werks with research and with the help of team members when I couldn't find it
-              </div>
-              <div>
-                Along with PowerApps, I learned to use microsoft's PowerAutomate tool. Connect soefb with the app, 
-                displaying lists of data and sorting it 
+                During my time at ISED, I learned how to use a variety of high-level Microsoft tools and apps including 
+                Microsoft Powerapps, Power Automate, Excel, Azure, and Sharepoint. 
               </div>
             </div>
           </div>
@@ -53,11 +49,12 @@ export default function Work() {
             </div>
             <div className={styles.work_lists}>
               <div>
-                Collaborated with a small team to create a shoutouts app called Bravo. For department to use instead of wall. 
-                Worked with Microsoft Power Apps and Power Automate for development and Jira for task management.
+                Collaborated with a small team to develop a Shoutouts app called Bravo. The app was meant to be a virtual alternnative to 
+                the in-person shoutout wall at the office. I used a Microsoft Power Apps template, PowerAutomate, and Sharepoint to complete 
+                the jira tickets that were assigned to me.
               </div>
               <div>
-                Led bi-weekly Tech Talk meetings when supervisors were unavailable. Discussed current progress, blockers, and future tasks.
+                I also helped to lead bi-weekly Tech Talk meetings and discussed the team's current projects, blockers, and future tasks. 
               </div>
             </div>
           </div>
@@ -90,19 +87,19 @@ export default function Work() {
             </div>
             <div className={styles.work_lists}>
               <div>
-                Gained more experience with react
+                While I had learned the basics of the React framework in web development courses, Aisha Living is where 
+                I gained practical experience and became familiar with React. 
               </div>
               <div>
-                MUI materials. Icons, nav stuff, typography
+                I used the React MUI library throughout to implement navigation, typography, and icons into the UI of 
+                the Aisha Living website. 
               </div>
               <div>
-                Figma
+                I learned how to use the React Redux library to create functions that created, modified, and removed 
+                entries in the company database. 
               </div>
               <div>
-                React redux
-              </div>
-              <div>
-                Django
+                We used a Django framework for the backend of the application. 
               </div>
             </div>
           </div>
@@ -112,10 +109,15 @@ export default function Work() {
             </div>
             <div className={styles.work_lists}>
               <div>
-                Revamped many websites. Used marketing team's figma designs, 
+                I developed and deployed many iterations of the Aisha Living website, along with other websites related to 
+                other projects within the company. I regularly recieved design updates through figma and through one on one calls 
+                with my supervisor. 
               </div>
               <div>
-                Conducted interviews and trained new hires
+                Along with my responsibilities as a developer, I vetted Co-op applications for the company, narrowing them down for the interview process. 
+                I also conducted the interviews virtually and discussed potential candidates with my Supervisor. 
+                Before my final Co-Op term with Aisha Living, I onboarded the new hires on the development team, using 
+                documentation I had written throughout my time there. 
               </div>
             </div>
           </div>
@@ -148,10 +150,14 @@ export default function Work() {
             </div>
             <div className={styles.work_lists}>
               <div>
-                Tcl, svn
+                I learned to navigate the expansive test repository for Solace's software products. The repository was written in TCL. 
+                This is also the first time I used SVN as opposed to Git for source control, which included learning new commands and a new interface. 
               </div>
               <div>
-                Playwright, Typescript
+                During my second term at Solace, I pivoted to working on quality assurance for the web-user interface. This process 
+                involved testing UI. I learned how to navigate and edit the test repository, which was written with Typescript 
+                and a Playwright framework. I learned about checking accessibility for those who are visually impaired, and how it 
+                can be implemented into the color scheme and style of a user interface. 
               </div>
             </div>
           </div>
@@ -161,15 +167,12 @@ export default function Work() {
             </div>
             <div className={styles.work_lists}>
               <div>
-                Analyzed test failures and created new scripts in Solace’s automated test repository using Tcl. Source
-                control managed through SVN.
+                I analyzed test failures and created new scripts in Solace’s automated test repository. 
+                I also added some logging functionality to the repository. 
               </div>
               <div>
-                Created and debugged automated tests for the web user interface of Solace products using a
-                Playwright framework and TypeScript. Source control managed through Git.
-              </div>
-              <div>
-                Maintained and augmented tests with new product features or updates.
+                I created and debugged automated tests for the web user interface of Solace products using a
+                Playwright framework, TypeScript, and Git. 
               </div>
             </div>
           </div>
@@ -202,10 +205,15 @@ export default function Work() {
             </div>
             <div className={styles.work_lists}>
               <div>
-                First experience with quality assurance, learned how to automat test w cypress
+                My time at Ruckify came with a lot of firsts, as it was my first time in a professional computer 
+                science environment. I learned how to create automated tests using Cypress. 
               </div>
               <div>
-                First experience with git, jira, all that shit
+                I experienced the software development lifecycle in a scrum environment, which included code reviews 
+                and daily team standup meetings. 
+              </div>
+              <div>
+                I learned how to use Jira for task management and Git for source control.
               </div>
             </div>
           </div>
@@ -215,14 +223,12 @@ export default function Work() {
             </div>
             <div className={styles.work_lists}>
               <div>
-                Created, updated and executed automated test cases using JavaScript and Cypress framework
+                I created, updated and executed automated test cases using JavaScript and a Cypress framework. 
+                I used an extension that recorded me as I interacted with the Ruckify website and generated the 
+                required JavaScript code to validate the user expeirence. 
               </div>
               <div>
-                Participated in code reviews and daily team standups
-              </div>
-              <div>
-                Modified and updated development code, correcting capitalization and spelling errors on the Ruckify
-                website
+                I manually went through the Ruckify website and updated its development code, correcting capitalization and spelling errors. 
               </div>
             </div>
           </div>
