@@ -6,9 +6,9 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background: #FFE5DA;
-    box-shadow: 2px 2px 5px #CCCCCC;
-    /*border-bottom:#FFE5DA solid 2px;*/
+    background: #fff7f3;
+    /*box-shadow: 2px 2px 5px #CCCCCC;
+    border-bottom:#FFE5DA solid 2px;*/
     
 }
 
@@ -49,15 +49,15 @@
 
 .nav_container a.active {
     color:#A90B0B;
-    text-decoration: underline;
-    text-decoration-color: #93ADCF; 
+    /*text-decoration: underline;
+    text-decoration-color: #93ADCF; */
     background-image: url("../assets/stars.png");
 }
 
 .nav_container a.active_project {
     color:#A90B0B;
-    text-decoration: underline;
-    text-decoration-color: #93ADCF; 
+    /*text-decoration: underline;
+    text-decoration-color: #93ADCF; */
     background-image: url("../assets/stars_long.png");
 }
 
