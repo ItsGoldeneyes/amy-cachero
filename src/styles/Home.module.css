@@ -188,7 +188,7 @@
     background-image: url("../assets/doodles_transparent.png");
     background-repeat:repeat-x;
     background-size:cover;
-    padding-top:40vh;
+    padding-top:20vh;
     padding-bottom:10vh;
     justify-content: flex-end;
   }
