@@ -31,20 +31,23 @@ export default function Home() {
         transition={{ duration: 0.5 }}
         exit={{ opacity: 0 }}
       >
-        <div className={styles.home_title_section}>
-          <div className={styles.home_title}>
-            Amy Cachero
-          </div>
-          <div className={styles.home_welcome_section}>
-            <div className={styles.home_welcome}>
-              Welcome to my portfolio!
+        <div className={styles.home_title_section_mobile}>
+          <div className={styles.home_title_section}>
+            <div className={styles.home_title}>
+              Amy Cachero
             </div>
-            <div className={styles.home_description}>
-              I am a programmer with experience in web development and quality assurance. <br></br>
-              I am passionate about the intersection between logic and creativity.
+            <div className={styles.home_welcome_section}>
+              <div className={styles.home_welcome}>
+                Welcome to my portfolio!
+              </div>
+              <div className={styles.home_description}>
+                I am a programmer with experience in web development and quality assurance. <br></br>
+                I am passionate about the intersection between logic and creativity.
+              </div>
             </div>
           </div>
         </div>
+        
 
         <div className={styles.home_icon_container}>
           <img className={styles.home_icon} src={shell} alt="----------"></img>
@@ -65,12 +68,6 @@ export default function Home() {
             I enjoy seeing the results of my creations visually, which is why I was initially drawn 
             to web development and ui/ux development. Details are important to me, and I have a deep 
             respect for every step of the software development lifecycle. 
-          </div>
-
-          <div className={styles.home_description}>
-            I love learning new skills and hobbies- I'm always excited to expand my repetoire. 
-            Fun fact: I learned how to use Procreate in order to draw the images seen throughout this website. 
-            After a weekend borrowing a friend's iPad, I achieved the personal flare I was looking for!
           </div>
 
           <div className={styles.home_description}>
