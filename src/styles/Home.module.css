@@ -146,11 +146,12 @@
   .home_about_me {
     width: 95%;
     margin-top:0;
-    margin-bottom: 0;
+    margin-bottom: 3rem;
     gap:1rem;
   }
 
   .home_container {
+    padding:0;
     width: 100%;
   }
 
@@ -187,8 +188,8 @@
     background-image: url("../assets/doodles_transparent.png");
     background-repeat:repeat-x;
     background-size:cover;
-    padding-top:5rem;
-    padding-bottom:2rem;
+    padding-top:40vh;
+    padding-bottom:10vh;
     justify-content: flex-end;
   }
 

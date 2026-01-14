@@ -87,17 +87,24 @@
   @media (max-width: 480px) {
 
     .icons_container {
-        height:90%;
-        right:0;
+        right:1rem;
     }
 
     .nav_container {
-        width:80%;
+        width:70%;
     }
 
     .nav_container > a {
-        width:10rem;
-        padding:25px 0 10px 0;
-        font-size:1.2rem;
+        font-size:1rem;
+    }
+
+    .nav_container a.active {
+        background-image: none;
+        text-decoration: underline;
+    }
+
+    .nav_container a.active_project {
+        background-image:none;
+        text-decoration: underline;
     }
   }
