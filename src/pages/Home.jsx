@@ -3,6 +3,10 @@ import styles from "../styles/Home.module.css";
 
 import shell from "../assets/shell.png";
 
+import me_outside from "../assets/me_outside.jpeg";
+import me_very_outside from "../assets/me_very_outside.jpeg";
+import me_mirror from "../assets/me_mirror.jpeg";
+
 import {motion as m } from "framer-motion";
 import { NavLink } from "react-router-dom";
 
@@ -74,6 +78,12 @@ export default function Home() {
             Some of my projects outside of programming include art and video editing. Take a look at my
             projects in more detail <span><NavLink to="/projects" className={styles.home_links}>here</NavLink></span>. 
           </div>
+        </div>
+
+        <div className={styles.home_pictures_container}>
+          <img className={styles.img0} src={me_outside} alt="me outside"></img>
+          <img className={styles.img1} src={me_very_outside} alt="me very outside"></img>
+          <img className={styles.img2} src={me_mirror} alt="me in a mirror"></img>
         </div>
       </m.div>
     </div>

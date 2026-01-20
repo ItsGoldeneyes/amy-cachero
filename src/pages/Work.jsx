@@ -2,6 +2,7 @@ import styles_global from "../styles/App.module.css";
 import styles from "../styles/Work.module.css";
 
 import wave from "../assets/wave.png";
+import resume from "../assets/Amy_Cachero_Resume.pdf";
 
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
@@ -22,6 +23,9 @@ export default function Work() {
       exit={{ opacity: 0 }}
       className={styles_global.page_container}
     >
+      <div className={styles.work_blurb}>
+        Below are descriptions of all of my work experiences, in order of most to least recent. <br></br><br></br>Click <span><a href={resume} target="_blank" className={styles.work_blurb_link}>here</a></span> to see my resume. 
+      </div>
       <div className={styles.work_container}>
         <div className={styles.title_container}>
           <div className={styles.work_title}>
