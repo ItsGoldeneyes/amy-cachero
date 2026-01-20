@@ -24,7 +24,7 @@ export default function Work() {
       className={styles_global.page_container}
     >
       <div className={styles.work_blurb}>
-        Below are descriptions of all of my work experiences, in order of most to least recent. <br></br><br></br>Click <span><a href={resume} target="_blank" className={styles.work_blurb_link}>here</a></span> to see my resume. 
+        Below are descriptions of all of my work experiences, in order of most to least recent. <br></br><br></br>Click <span><a href={resume} target="_blank" rel="noreferrer" className={styles.work_blurb_link}>here</a></span> to see my resume. 
       </div>
       <div className={styles.work_container}>
         <div className={styles.title_container}>

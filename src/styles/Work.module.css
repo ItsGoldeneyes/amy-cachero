@@ -156,6 +156,13 @@
 }
 
 @media (max-width:480px) {
+
+  .link_container {
+    width: 90%;
+  }
+  .title_container {
+    width:95%;
+  }
   .wave_container {
     height:fit-content;
   }
@@ -165,11 +172,15 @@
   }
 
   .work_container {
-    padding-top:1rem;
-    padding-bottom:2rem;
+    padding-top:2rem;
+    padding-bottom:3rem;
     padding-left:0;
     padding-right:0;
-    width: 95%;
+    width: 100%;
     box-shadow: 0px 0px 0px;
+  }
+
+  .work_info {
+    width:80%;
   }
 }
