@@ -75,7 +75,7 @@ export default function TheoHeras() {
               Role: Designer and developer
             </div>
             <div>
-              Status: Officially shopped October 9, 2023
+              Status: Officially shipped October 9, 2023
             </div>
           </div>
         </div>

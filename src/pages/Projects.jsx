@@ -33,7 +33,7 @@ export default function Projects() {
         </div>
         <div className={styles.projects_grid}>
           <div onClick={() => navigate('stephen-website')} className={styles.projects_grid_cell}>
-            <ProjectBox projectName={"Website for Stephen Grant"} projectDate={"January 2026"} projectImage={stephenSC} techStack={"Wordpress, CSS"}/>
+            <ProjectBox projectName={"Website for Stephen Grant"} projectDate={"January 2026"} projectImage={stephenSC} techStack={"WordPress, CSS"}/>
           </div>
           <div onClick={() => navigate('theo-website')} className={styles.projects_grid_cell}>
             <ProjectBox projectName={"Website for Theo Heras"} projectDate={"October 2023"} projectImage={theoSC} techStack={"React, HTML, CSS, JavaScript"}/>  
