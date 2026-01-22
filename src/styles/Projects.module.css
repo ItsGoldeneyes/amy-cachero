@@ -2,21 +2,53 @@
 
 .projects_background {
   background-image: url("../assets/doodles_transparent.png");
-  background-repeat:repeat;
-  background-size:contain;
+  background-repeat:no-repeat;
+  background-size:cover;
   min-height:100vh;
   width:100%;
   display:flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
-.coming_soon {
-  font-family: "Raleway", sans-serif;
-  font-size:5rem;
-  font-weight: 600;
-  color:#A90B0B;
-  text-shadow: 2px 2px 5px #CCCCCC;
+.projects_blurb {
+  font-size: 1.1vw;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  line-height: 1.6vw;
+  margin-top:3rem;
   text-align: center;
+  text-shadow: 1px 1px 3px #CCCCCC;
+}
+
+.projects_grid {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content: center;
+  gap:3rem;
+  width: 50%;
+  margin-top:3rem;
+  margin-bottom:3rem;
+}
+
+@media (max-width: 1200px) {
+  .projects_blurb {
+    font-size: 1rem;
+  }
+
+  .projects_grid {
+    width:60%
+  }
+}
+
+@media (max-width: 480px) {
+  .projects_blurb {
+    font-size: 1rem;
+  }
+
+  .projects_grid {
+    width:95%
+  }
 }

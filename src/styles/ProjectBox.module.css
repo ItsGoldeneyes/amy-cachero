@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Red+Hat+Display&display=swap');
+
+
+.project_date {
+  margin-bottom:1rem;
+  color: #A90B0B;
+  font-family: "Red Hat Display", sans-serif;
+  font-size:1rem;
+}
+
+.project_grid_element {
+  background-color: white;
+  border-radius:2px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content:center;
+  box-shadow: 2px 2px 5px #CCCCCC;
+  max-width:20vw;
+  transition:0.3s;
+}
+
+.project_grid_element:hover {
+  box-shadow: 10px 10px 10px #CCCCCC;
+}
+
+.project_image {
+  margin-top:1rem;
+  max-width:80%;
+  border: 1px solid #212858
+}
+
+.project_name {
+  font-size:1.2rem;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  color:#212858;
+  margin:1rem 1rem 0.5rem 1rem;
+  text-align: center;
+}
+
+.project_tech_stack_container {
+  background-color: #212858;
+  width: 100%;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.project_tech_stack {
+  margin:1rem;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: 700;
+  color:white
+}
+
+@media (max-width: 480px) {
+  .project_grid_element {
+    max-width:80%;
+  }
+}
