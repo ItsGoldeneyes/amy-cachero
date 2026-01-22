@@ -1,3 +1,4 @@
+
 import ProjectBox from "../components/ProjectBox";
 
 import styles_global from "../styles/App.module.css";
@@ -8,12 +9,15 @@ import theoSC from "../assets/Projects/theo-website-screenshot.png";
 
 import {motion as m } from "framer-motion";
 import { useEffect } from "react";
+import { useNavigate } from 'react-router-dom';
 
 export default function Projects() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const navigate = useNavigate();
 
   return (
     <m.div 
@@ -28,8 +32,12 @@ export default function Projects() {
           Click on a project to see more details
         </div>
         <div className={styles.projects_grid}>
-          <ProjectBox projectName={"Website for Stephen Grant"} projectDate={"January 2026"} projectImage={stephenSC} techStack={"Wordpress, CSS"}/>
-          <ProjectBox projectName={"Website for Theo Heras"} projectDate={"October 2023"} projectImage={theoSC} techStack={"React, HTML, CSS, JavaScript"}/>  
+          <div onClick={() => navigate('stephen-website')}>
+            <ProjectBox projectName={"Website for Stephen Grant"} projectDate={"January 2026"} projectImage={stephenSC} techStack={"Wordpress, CSS"}/>
+          </div>
+          <div onClick={() => navigate('theo-website')}>
+            <ProjectBox projectName={"Website for Theo Heras"} projectDate={"October 2023"} projectImage={theoSC} techStack={"React, HTML, CSS, JavaScript"}/>  
+          </div>
         </div>
       </div>
     </m.div>

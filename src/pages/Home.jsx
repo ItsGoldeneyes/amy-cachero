@@ -79,12 +79,14 @@ export default function Home() {
             projects in more detail <span><NavLink to="/projects" className={styles.home_links}>here</NavLink></span>. 
           </div>
         </div>
-
-        <div className={styles.home_pictures_container}>
+        {
+          /* <div className={styles.home_pictures_container}>
           <img className={styles.img0} src={me_outside} alt="me outside"></img>
           <img className={styles.img1} src={me_very_outside} alt="me very outside"></img>
           <img className={styles.img2} src={me_mirror} alt="me in a mirror"></img>
-        </div>
+        </div>*/
+        }
+        
       </m.div>
     </div>
   );
